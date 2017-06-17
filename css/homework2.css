@@ -83,6 +83,7 @@ article  ul a {
     text-decoration: none;
     color:#333;
     display:block;
+    transition: transform 0.3s ease-out;
    
  
 }
