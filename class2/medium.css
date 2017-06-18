@@ -1,0 +1,77 @@
+Medium.com
+
+CSS
+body{
+	background-color: #ececec;
+	margin: 0;
+	font-family: helvetica;
+	text-align: center;
+	box-sizing: border-box;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns:300px 300px 300px;
+	grid-column-gap: 20px;
+	grid-template-rows: 200px 200px 200px;
+	grid-row-gap: 20px;
+	background-color: #cccccc;
+}
+
+.left{
+	background-color: #C0FFEE;
+	padding:10px;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:3;
+	background-image: url("https://ga-shop.s3.amazonaws.com/production/store/submasthead/4/image/standard-11ede6276f.jpg");
+	background-size: cover;
+	color:white;
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.left-text h1{
+	position: relative;
+	top: 300px;
+	text-transform: capitalize;
+
+
+
+}
+
+.right1{
+	background-color: #FB1;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:2;
+}
+
+.right2{
+	background-color: #FB1;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+.right3{
+	background-color: #FB1;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+.bottom{
+	background-color: #101;
+	padding:10px;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:4;
+
+}

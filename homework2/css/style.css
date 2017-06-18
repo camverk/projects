@@ -1,0 +1,414 @@
+body{
+	margin: 0;
+	font-family: 'helvetica', sans-serif;
+	box-sizing: border-box;
+	color:#0c2b57
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Droid Serif', serif;
+}
+
+.nav ul {
+	list-style: none;
+	background-color: #DDEAF2;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	margin-bottom: 20px;
+	/*not working*/
+	border-image-source: url("/images/5lines.png"); 
+
+}
+.nav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 50px;
+	height: 50px;
+	display: inline-block;
+	padding-right: 10px;
+
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: #0c2b57;
+
+
+}
+
+.nav .stlogo{
+	background-image: url("http://www.straitstimes.com/sites/all/themes/custom/bootdemo/images/st-logo.png");
+	background-size: 50px;
+	background-repeat-x: no-repeat;
+}
+
+
+.wrapper{
+	width:1060px;
+	margin:0 auto;	
+}
+
+.section{
+	border-bottom:10px solid #000;
+	margin:5px 0;
+	height: 40px;
+
+
+}
+
+
+
+.endsection{
+	border-top:10px solid #000;
+	margin:5px 0;
+	height: 40px;
+
+	text-transform: uppercase;
+	color: #0c2b57;
+	font-size: 12px;
+	font-weight:normal;
+
+
+}
+
+.title{
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	color: #0c2b57;
+	font-size: 29px;
+	font-weight:400;
+
+
+
+}
+.details{
+	text-transform: uppercase;
+	color: #0c2b57;
+	font-size: 14px;
+	font-weight:normal;
+
+
+
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+main {
+	display: grid;
+	grid-template-columns:250px 250px 250px 250px;
+	grid-column-gap: 20px;
+	grid-template-rows: 150px 150px 150px 150px 150px 150px;
+
+}
+
+.topimg{
+	background-color: black;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:3;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	
+}
+
+
+.topstory{
+	position: relative;
+	background-color: #0c2b57;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:5;
+	text-align: left;
+	padding:10px;
+
+
+
+}
+
+.topstory h2{
+	margin:0;
+	font-weight:400;
+	font-size:32px;
+	color:#fff;
+
+}
+
+.topstory p{
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	font-size:15px;
+	color:#DDEAF2;
+
+}
+
+.topstory a{
+	text-decoration: none;
+	font-family: 'Droid Serif', serif;
+	font-size:14px;
+	font-weight: 400;
+
+	color:#fff;
+
+}
+
+.topstory a:hover{
+	text-decoration: none;
+	color:#ccc;
+
+}
+
+.related{
+	color:#428bca;
+
+}
+
+.topstory .share{
+	position: absolute;
+	height: 25px;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	font-family: 'helvetica', sans-serif;
+	color:#fff;
+	margin-right:10px;
+	/* not working */
+	content: "";
+	display: block;
+	background-image: url('http://imgur.com/OjkO2Gt');
+	background-repeat: no-repeat;
+	padding-left: 30px;  
+
+
+}
+
+.story h2{
+	margin:0;
+	font-weight:400;
+	font-size:20px;
+	color:#444;
+
+}
+
+.story .share{
+	position: absolute;
+	height: 25px;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	font-family: 'helvetica', sans-serif;
+	color:#999;
+	margin-right:10px;
+
+
+}
+
+.story1img{
+	background-color: black;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:2;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	
+}
+
+
+.story1{
+	position: relative;
+	background-color: #eff3f4;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:2;
+	grid-row-end:3;
+	text-align: left;
+	padding:10px;
+	border-bottom:10px solid #fff;
+
+
+}
+
+
+.story2img{
+	background-color: black;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	
+}
+
+
+.story2{
+	position: relative;
+	background-color: #eff3f4;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:4;
+	grid-row-end:5;
+	text-align: left;
+	padding:10px;
+
+
+}
+
+
+.story3img{
+	border-top:10px solid #fff;
+	background-color: black;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:5;
+	grid-row-end:6;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	
+}
+
+
+.story3{
+	position: relative;
+	background-color: #eff3f4;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:6;
+	grid-row-end:7;
+	text-align: left;
+	padding:10px;
+
+
+}
+
+
+.story4img{
+	border-top:10px solid #fff;
+	background-color: black;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:5;
+	grid-row-end:6;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	
+}
+
+
+.story4{
+	position: relative;
+	background-color: #eff3f4;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:6;
+	grid-row-end:7;
+	text-align: left;
+	padding:10px;
+
+
+}
+.story567{
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:5;
+	grid-row-end:7;
+
+
+}
+
+.story5{
+	position: relative;
+	border-top:10px solid #fff;
+	padding: 10px; 
+	height:auto;
+}
+.story567 h2{
+	color:#fff;
+	font-size: 16px;
+	text-align: left;
+
+}
+
+
+
+.story5 .share{
+	position: absolute;
+	height: 25px;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	font-family: 'helvetica', sans-serif;
+	color:#999;
+	margin-right:10px;
+
+
+}
+
+.sponsoredimg{
+	border-top:10px solid #fff;
+	background-color: black;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:5;
+	grid-row-end:6;
+	background-image: url("http://www.straitstimes.com/sites/default/files/styles/xx_large/public/articles/2017/06/18/dispute1.jpg?itok=zy5lFUjE");
+	background-size: cover;
+	color:#fff;
+	display: block;
+
+	
+}
+.sponsoredbar{
+	background-color:#96aaf2;
+	top:0;
+	left:0;
+	font-family: helvetica, sans-serif;
+	color:#fff;
+	font-size: 12px;
+	height: 15px;
+	display:block;
+	padding:2px 0 1px 5px;
+}
+
+
+.sponsored{
+	position: relative;
+	background-color: #eff3f4;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:6;
+	grid-row-end:7;
+	text-align: left;
+	padding:10px;
+
+
+}
+
+
+.breakingnews{
+	background-color: #ddeaf2;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:1;
+	grid-row-end:5;
+	
+	
+}
+
+
+.bgblue{background-color: #5a9ddc;}
+.bgteal{background-color: #56c8ce;}
+.bgpurple{background-color:#96aaf2;}
+
+
+
