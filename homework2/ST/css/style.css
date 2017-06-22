@@ -1,0 +1,344 @@
+body{
+	background-color: #fff;
+	box-sizing: border-box;
+	font-family: 'helvetica', sans-serif;
+	box-sizing: border-box;
+	color:#0c2b57
+	padding:0;
+	margin-top: 0;
+	margin-left:0;
+	margin-right:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+}
+
+.wrapper{ 
+	width: 1160px;
+	margin:0 auto;
+}
+
+.maingrid{
+	display: grid;
+	grid-template-columns:275px 275px 275px 275px;
+	grid-column-gap: 20px;
+	grid-template-rows: 320px 320px 320px;
+	grid-row-gap: 10px;
+	background-color: #fff;
+}
+
+/*NAV*/
+
+.nav{
+	top:0;
+	position:fixed;
+	background-color: #DDEAF2;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	z-index: 20; 
+	border-bottom:3px double #000;
+
+}
+
+.nav ul {
+
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1px 0;
+	border-bottom:3px double #000;
+
+}
+
+.nav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 50px;
+	height: 50px;
+	display: inline-block;
+	padding-right: 10px;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: #0c2b57;
+
+}
+
+
+.nav .stlogo{
+	background-image: url("http://www.straitstimes.com/sites/all/themes/custom/bootdemo/images/st-logo.png");
+	background-size: 50px;
+	background-repeat-x: no-repeat;
+}
+
+
+
+
+/*TOP STORIES SECITON */
+.section{
+	border-bottom:3px double #000;
+	height: 40px;
+	margin-bottom:20px;
+
+
+
+}
+
+.title{
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	color: #0c2b57;
+	font-size: 29px;
+	font-weight:400;
+	padding-bottom:5px;
+	float:left;
+
+
+
+
+}
+
+.details{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 12px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 50px;
+	height: 50px;
+	display: inline-block;
+	padding-right: 10px;
+	float:right;
+
+
+
+}
+
+.stocksred{ font-size: 9px;color:#ff0000; }
+
+
+.endsection{
+	border-top:3px double #ececec;
+	height: 50px;
+	text-transform: uppercase;
+	color: #0c2b57;
+	font-size: 12px;
+	font-weight:normal;
+	margin-top:20px;
+
+
+}
+
+
+
+
+/*stories*/
+
+.topstory{
+	position: relative;
+	background-color: #0c2b57;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:3;
+	color:white;
+	text-align: left;
+}
+
+.topstory img{
+	width: 570px;
+	height: auto;
+}
+
+.topstory-text{
+	padding: 10px;
+	margin: 0;
+
+
+}
+.topstory-text h1{
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 25px;
+
+}
+
+.topstory-text h1 a{
+	color: #fff;
+	text-decoration: none;
+
+
+
+}
+
+.topstory-text p{
+	font-family: serif;
+	color: #DDEAF2;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+
+.topstory-text p a{
+	text-decoration: none;
+	font-family: serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+.related{
+	color:#428bca;
+
+}
+.topstory .share{
+	position: absolute;
+	height: 25px;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	font-family: 'helvetica', sans-serif;
+	color:#fff;
+	margin-right:10px;
+
+
+
+}
+
+
+.share{
+	position: absolute;
+	height: 25px;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	font-family: 'helvetica', sans-serif;
+	color:#777;
+	margin-right:10px;
+
+
+
+}
+
+
+.breakingnews{
+	background-color: #DDEAF2;
+
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:1;
+	grid-row-end:3;
+}
+
+.stories h2{
+	padding: 10px;
+	color: #444;
+	margin: 0;
+	font-size: 20px
+
+}
+
+.stories a{
+	color: #444;
+	text-decoration: none;
+
+}
+
+.stories img{
+	width: 275px;
+	height:auto;
+}
+
+.right1{
+	position: relative;
+	background-color: #eff3f4;
+
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:2;
+}
+
+.right2{
+	position: relative;
+	background-color: #eff3f4;
+
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:2;
+	grid-row-end:3;
+}
+.bottom1{
+	position: relative;
+	background-color: #eff3f4;
+
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end:4;
+
+}
+.bottom2{
+	position: relative;
+	background-color: #eff3f4;
+
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:4;
+
+}
+
+.bottom3{
+
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:4;
+
+}
+.bottom3row{
+	position: relative;
+	padding: 10px; 
+	margin: 0;
+	height: 25%;
+	margin-bottom:10px;
+	;
+}
+.bottom3 h2{
+	font-size:18px;
+	color:#fff;
+}
+
+.bottomSponsored{
+	position: relative;
+	background-color: #eff3f4;
+
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:4;
+}
+.sponsoredbar{
+	background-color:#96aaf2;
+	top:0;
+	left:0;
+	font-family: helvetica, sans-serif;
+	color:#fff;
+	font-size: 12px;
+	height: 15px;
+	display:block;
+	padding:2px 0 1px 5px;
+}
+
+
+
+.bgblue{background-color: #5a9ddc;}
+.bgteal{background-color: #56c8ce;}
+.bgpurple{background-color:#96aaf2;}
+
